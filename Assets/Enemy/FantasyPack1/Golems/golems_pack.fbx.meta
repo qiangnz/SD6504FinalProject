@@ -1,0 +1,2155 @@
+fileFormatVersion: 2
+guid: 285c605c07ba58a46ab1d3941f98e55e
+timeCreated: 1463818741
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm1.L
+    100002: Arm1.R
+    100004: Arm2.L
+    100006: Arm2.R
+    100008: Elbow_ctrl.L
+    100010: Elbow_ctrl.L_end
+    100012: Elbow_ctrl.R
+    100014: Elbow_ctrl.R_end
+    100016: Ent_Base
+    100018: Finger1_hi.L
+    100020: Finger1_hi.L_end
+    100022: Finger1_hi.R
+    100024: Finger1_hi.R_end
+    100026: Finger2_hi.L
+    100028: Finger2_hi.L_end
+    100030: Finger2_hi.R
+    100032: Finger2_hi.R_end
+    100034: Foot.L
+    100036: Foot.L_end
+    100038: Foot.R
+    100040: Foot.R_end
+    100042: Foot_IK.L
+    100044: Foot_IK.R
+    100046: Golem
+    100048: Golem_Armature
+    100050: Golem_ice_parts
+    100052: Golem_St_finers
+    100054: //RootNode
+    100056: Hand_IK.L
+    100058: Hand_IK.R
+    100060: Head
+    100062: Head_end
+    100064: Knee_ctrl.L
+    100066: Knee_ctrl.L_end
+    100068: Knee_ctrl.R
+    100070: Knee_ctrl.R_end
+    100072: Leg_end.L
+    100074: Leg_end.R
+    100076: Leg_hi.L
+    100078: Leg_hi.R
+    100080: Spine
+    100082: Thumb_hi.L
+    100084: Thumb_hi.L_end
+    100086: Thumb_hi.R
+    100088: Thumb_hi.R_end
+    400000: Arm1.L
+    400002: Arm1.R
+    400004: Arm2.L
+    400006: Arm2.R
+    400008: Elbow_ctrl.L
+    400010: Elbow_ctrl.L_end
+    400012: Elbow_ctrl.R
+    400014: Elbow_ctrl.R_end
+    400016: Ent_Base
+    400018: Finger1_hi.L
+    400020: Finger1_hi.L_end
+    400022: Finger1_hi.R
+    400024: Finger1_hi.R_end
+    400026: Finger2_hi.L
+    400028: Finger2_hi.L_end
+    400030: Finger2_hi.R
+    400032: Finger2_hi.R_end
+    400034: Foot.L
+    400036: Foot.L_end
+    400038: Foot.R
+    400040: Foot.R_end
+    400042: Foot_IK.L
+    400044: Foot_IK.R
+    400046: Golem
+    400048: Golem_Armature
+    400050: Golem_ice_parts
+    400052: Golem_St_finers
+    400054: //RootNode
+    400056: Hand_IK.L
+    400058: Hand_IK.R
+    400060: Head
+    400062: Head_end
+    400064: Knee_ctrl.L
+    400066: Knee_ctrl.L_end
+    400068: Knee_ctrl.R
+    400070: Knee_ctrl.R_end
+    400072: Leg_end.L
+    400074: Leg_end.R
+    400076: Leg_hi.L
+    400078: Leg_hi.R
+    400080: Spine
+    400082: Thumb_hi.L
+    400084: Thumb_hi.L_end
+    400086: Thumb_hi.R
+    400088: Thumb_hi.R_end
+    4300000: Golem_ice_parts
+    4300002: Golem_St_finers
+    4300004: Golem
+    7400000: Golem_Armature|Ent_ArmatureAction
+    7400002: walk
+    7400004: walk_fast
+    7400006: idle
+    7400008: idle_battle
+    7400010: attack1
+    7400012: attack2
+    7400014: power_attack
+    7400016: cast1
+    7400018: cast2
+    7400020: stomp
+    7400022: defence_start
+    7400024: defence_end
+    7400026: hit1
+    7400028: hit2
+    7400030: death1
+    7400032: death2
+    9500000: //RootNode
+    13700000: Golem
+    13700002: Golem_ice_parts
+    13700004: Golem_St_finers
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Golem_Armature|Ent_ArmatureAction
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 0
+      lastFrame: 528
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 10
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk_fast
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 100
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_battle
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 160
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: power_attack
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 230
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: cast1
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 260
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: cast2
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 300
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stomp
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 330
+      lastFrame: 395
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_start
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 395
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_end
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 405
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit1
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 420
+      lastFrame: 435
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit2
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 435
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death1
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 450
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death2
+      takeName: Golem_Armature|Ent_ArmatureAction
+      firstFrame: 490
+      lastFrame: 528
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem_Armature
+        weight: 1
+      - path: Golem_Armature/Ent_Base
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.L/Knee_ctrl.L/Knee_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Foot_IK.R/Knee_ctrl.R/Knee_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.L/Elbow_ctrl.L/Elbow_ctrl.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Hand_IK.R/Elbow_ctrl.R/Elbow_ctrl.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger1_hi.L/Finger1_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Finger2_hi.L/Finger2_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.L/Arm2.L/Thumb_hi.L/Thumb_hi.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger1_hi.R/Finger1_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Finger2_hi.R/Finger2_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Arm1.R/Arm2.R/Thumb_hi.R/Thumb_hi.R_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Head/Head_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.L/Leg_end.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R
+        weight: 1
+      - path: Golem_Armature/Ent_Base/Spine/Leg_hi.R/Leg_end.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Golem_ice_parts
+        weight: 1
+      - path: Golem_St_finers
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

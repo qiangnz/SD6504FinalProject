@@ -1,0 +1,4614 @@
+fileFormatVersion: 2
+guid: d0e51fb783a10c3479fa6f7fae9f3041
+timeCreated: 1461403344
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bottom_arm.L
+    100002: Bottom_arm.R
+    100004: Bottom_leg.L
+    100006: Bottom_leg.R
+    100008: Bottom_low_leg.L
+    100010: Bottom_low_leg.R
+    100012: Clavicle.L
+    100014: Clavicle.R
+    100016: Elbow_IK.L
+    100018: Elbow_IK.L_end
+    100020: Elbow_IK.R
+    100022: Elbow_IK.R_end
+    100024: fin
+    100026: finger1_1.L
+    100028: finger1_1.R
+    100030: finger1_2.L
+    100032: finger1_2.L_end
+    100034: finger1_2.R
+    100036: finger1_2.R_end
+    100038: finger2_1.L
+    100040: finger2_1.R
+    100042: finger2_2.L
+    100044: finger2_2.L_end
+    100046: finger2_2.R
+    100048: finger2_2.R_end
+    100050: Foot.L
+    100052: Foot.R
+    100054: Foot_ctrl.L
+    100056: Foot_ctrl.R
+    100058: Foot_IK.L
+    100060: Foot_IK.L_end
+    100062: Foot_IK.R
+    100064: Foot_IK.R_end
+    100066: FootRoll_crtl.L
+    100068: FootRoll_crtl.L_end
+    100070: FootRoll_crtl.R
+    100072: FootRoll_crtl.R_end
+    100074: greb_1
+    100076: greb_1_end
+    100078: greb_2
+    100080: greb_2_end
+    100082: greb_3
+    100084: greb_3_end
+    100086: Hand.L
+    100088: Hand.R
+    100090: Hand_IK.L
+    100092: Hand_IK.R
+    100094: Head
+    100096: Heel_roll.L
+    100098: Heel_roll.R
+    100100: Hips_ctrl
+    100102: //RootNode
+    100104: iguana
+    100106: iguana_arma
+    100108: iguana_eq
+    100110: jaw
+    100112: jaw_end
+    100114: Knee_IK.L
+    100116: Knee_IK.L_end
+    100118: Knee_IK.R
+    100120: Knee_IK.R_end
+    100122: Neck
+    100124: Spear
+    100126: spine_1
+    100128: spine_2
+    100130: spine_3
+    100132: Staff
+    100134: tail_base
+    100136: tail_end
+    100138: tail_end_end
+    100140: tail_mid1
+    100142: tail_mid2
+    100144: Thumb_1.L
+    100146: Thumb_1.R
+    100148: Thumb_2.L
+    100150: Thumb_2.L_end
+    100152: Thumb_2.R
+    100154: Thumb_2.R_end
+    100156: Toe.L
+    100158: Toe.L_end
+    100160: Toe.R
+    100162: Toe.R_end
+    100164: Toe_roll.L
+    100166: Toe_roll.R
+    100168: Upper_arm.L
+    100170: Upper_arm.R
+    100172: Upper_leg.L
+    100174: Upper_leg.R
+    100176: Weapon_bone
+    100178: Weapon_bone_end
+    100180: Camera
+    100182: fin.001
+    100184: fin.001_MeshPart0
+    100186: fin.001_MeshPart1
+    100188: fin_bake
+    100190: fin_bake.001
+    100192: IGU
+    100194: IGU2
+    100196: IGU_bake
+    100198: IGU_cage
+    100200: IGU_greb_bake
+    100202: IGU_greb_cage
+    100204: IGU_hi
+    100206: IGU_hi_MeshPart0
+    100208: IGU_hi_MeshPart1
+    100210: IGU_hi_MeshPart10
+    100212: IGU_hi_MeshPart100
+    100214: IGU_hi_MeshPart101
+    100216: IGU_hi_MeshPart102
+    100218: IGU_hi_MeshPart103
+    100220: IGU_hi_MeshPart104
+    100222: IGU_hi_MeshPart105
+    100224: IGU_hi_MeshPart106
+    100226: IGU_hi_MeshPart107
+    100228: IGU_hi_MeshPart108
+    100230: IGU_hi_MeshPart109
+    100232: IGU_hi_MeshPart11
+    100234: IGU_hi_MeshPart110
+    100236: IGU_hi_MeshPart111
+    100238: IGU_hi_MeshPart112
+    100240: IGU_hi_MeshPart113
+    100242: IGU_hi_MeshPart114
+    100244: IGU_hi_MeshPart115
+    100246: IGU_hi_MeshPart116
+    100248: IGU_hi_MeshPart117
+    100250: IGU_hi_MeshPart118
+    100252: IGU_hi_MeshPart119
+    100254: IGU_hi_MeshPart12
+    100256: IGU_hi_MeshPart120
+    100258: IGU_hi_MeshPart121
+    100260: IGU_hi_MeshPart122
+    100262: IGU_hi_MeshPart123
+    100264: IGU_hi_MeshPart124
+    100266: IGU_hi_MeshPart125
+    100268: IGU_hi_MeshPart126
+    100270: IGU_hi_MeshPart127
+    100272: IGU_hi_MeshPart128
+    100274: IGU_hi_MeshPart129
+    100276: IGU_hi_MeshPart13
+    100278: IGU_hi_MeshPart130
+    100280: IGU_hi_MeshPart131
+    100282: IGU_hi_MeshPart132
+    100284: IGU_hi_MeshPart133
+    100286: IGU_hi_MeshPart134
+    100288: IGU_hi_MeshPart135
+    100290: IGU_hi_MeshPart136
+    100292: IGU_hi_MeshPart137
+    100294: IGU_hi_MeshPart14
+    100296: IGU_hi_MeshPart15
+    100298: IGU_hi_MeshPart16
+    100300: IGU_hi_MeshPart17
+    100302: IGU_hi_MeshPart18
+    100304: IGU_hi_MeshPart19
+    100306: IGU_hi_MeshPart2
+    100308: IGU_hi_MeshPart20
+    100310: IGU_hi_MeshPart21
+    100312: IGU_hi_MeshPart22
+    100314: IGU_hi_MeshPart23
+    100316: IGU_hi_MeshPart24
+    100318: IGU_hi_MeshPart25
+    100320: IGU_hi_MeshPart26
+    100322: IGU_hi_MeshPart27
+    100324: IGU_hi_MeshPart28
+    100326: IGU_hi_MeshPart29
+    100328: IGU_hi_MeshPart3
+    100330: IGU_hi_MeshPart30
+    100332: IGU_hi_MeshPart31
+    100334: IGU_hi_MeshPart32
+    100336: IGU_hi_MeshPart33
+    100338: IGU_hi_MeshPart34
+    100340: IGU_hi_MeshPart35
+    100342: IGU_hi_MeshPart36
+    100344: IGU_hi_MeshPart37
+    100346: IGU_hi_MeshPart38
+    100348: IGU_hi_MeshPart39
+    100350: IGU_hi_MeshPart4
+    100352: IGU_hi_MeshPart40
+    100354: IGU_hi_MeshPart41
+    100356: IGU_hi_MeshPart42
+    100358: IGU_hi_MeshPart43
+    100360: IGU_hi_MeshPart44
+    100362: IGU_hi_MeshPart45
+    100364: IGU_hi_MeshPart46
+    100366: IGU_hi_MeshPart47
+    100368: IGU_hi_MeshPart48
+    100370: IGU_hi_MeshPart49
+    100372: IGU_hi_MeshPart5
+    100374: IGU_hi_MeshPart50
+    100376: IGU_hi_MeshPart51
+    100378: IGU_hi_MeshPart52
+    100380: IGU_hi_MeshPart53
+    100382: IGU_hi_MeshPart54
+    100384: IGU_hi_MeshPart55
+    100386: IGU_hi_MeshPart56
+    100388: IGU_hi_MeshPart57
+    100390: IGU_hi_MeshPart58
+    100392: IGU_hi_MeshPart59
+    100394: IGU_hi_MeshPart6
+    100396: IGU_hi_MeshPart60
+    100398: IGU_hi_MeshPart61
+    100400: IGU_hi_MeshPart62
+    100402: IGU_hi_MeshPart63
+    100404: IGU_hi_MeshPart64
+    100406: IGU_hi_MeshPart65
+    100408: IGU_hi_MeshPart66
+    100410: IGU_hi_MeshPart67
+    100412: IGU_hi_MeshPart68
+    100414: IGU_hi_MeshPart69
+    100416: IGU_hi_MeshPart7
+    100418: IGU_hi_MeshPart70
+    100420: IGU_hi_MeshPart71
+    100422: IGU_hi_MeshPart72
+    100424: IGU_hi_MeshPart73
+    100426: IGU_hi_MeshPart74
+    100428: IGU_hi_MeshPart75
+    100430: IGU_hi_MeshPart76
+    100432: IGU_hi_MeshPart77
+    100434: IGU_hi_MeshPart78
+    100436: IGU_hi_MeshPart79
+    100438: IGU_hi_MeshPart8
+    100440: IGU_hi_MeshPart80
+    100442: IGU_hi_MeshPart81
+    100444: IGU_hi_MeshPart82
+    100446: IGU_hi_MeshPart83
+    100448: IGU_hi_MeshPart84
+    100450: IGU_hi_MeshPart85
+    100452: IGU_hi_MeshPart86
+    100454: IGU_hi_MeshPart87
+    100456: IGU_hi_MeshPart88
+    100458: IGU_hi_MeshPart89
+    100460: IGU_hi_MeshPart9
+    100462: IGU_hi_MeshPart90
+    100464: IGU_hi_MeshPart91
+    100466: IGU_hi_MeshPart92
+    100468: IGU_hi_MeshPart93
+    100470: IGU_hi_MeshPart94
+    100472: IGU_hi_MeshPart95
+    100474: IGU_hi_MeshPart96
+    100476: IGU_hi_MeshPart97
+    100478: IGU_hi_MeshPart98
+    100480: IGU_hi_MeshPart99
+    100482: iguana_eq.001
+    100484: iguana_eq_bake
+    100486: iguana_eq_bake.001
+    100488: Spear.001
+    100490: Spear.001_MeshPart0
+    100492: Spear.001_MeshPart1
+    100494: Spear_bake
+    100496: Spear_bake.001
+    100498: Staff.001
+    100500: Staff.001_MeshPart0
+    100502: Staff.001_MeshPart1
+    100504: Staff.001_MeshPart2
+    100506: Staff.001_MeshPart3
+    100508: Staff.001_MeshPart4
+    100510: Staff.001_MeshPart5
+    100512: Staff.001_MeshPart6
+    100514: Staff.001_MeshPart7
+    100516: Staff_bake
+    100518: Staff_bake.001
+    100520: Sun
+    400000: Bottom_arm.L
+    400002: Bottom_arm.R
+    400004: Bottom_leg.L
+    400006: Bottom_leg.R
+    400008: Bottom_low_leg.L
+    400010: Bottom_low_leg.R
+    400012: Clavicle.L
+    400014: Clavicle.R
+    400016: Elbow_IK.L
+    400018: Elbow_IK.L_end
+    400020: Elbow_IK.R
+    400022: Elbow_IK.R_end
+    400024: fin
+    400026: finger1_1.L
+    400028: finger1_1.R
+    400030: finger1_2.L
+    400032: finger1_2.L_end
+    400034: finger1_2.R
+    400036: finger1_2.R_end
+    400038: finger2_1.L
+    400040: finger2_1.R
+    400042: finger2_2.L
+    400044: finger2_2.L_end
+    400046: finger2_2.R
+    400048: finger2_2.R_end
+    400050: Foot.L
+    400052: Foot.R
+    400054: Foot_ctrl.L
+    400056: Foot_ctrl.R
+    400058: Foot_IK.L
+    400060: Foot_IK.L_end
+    400062: Foot_IK.R
+    400064: Foot_IK.R_end
+    400066: FootRoll_crtl.L
+    400068: FootRoll_crtl.L_end
+    400070: FootRoll_crtl.R
+    400072: FootRoll_crtl.R_end
+    400074: greb_1
+    400076: greb_1_end
+    400078: greb_2
+    400080: greb_2_end
+    400082: greb_3
+    400084: greb_3_end
+    400086: Hand.L
+    400088: Hand.R
+    400090: Hand_IK.L
+    400092: Hand_IK.R
+    400094: Head
+    400096: Heel_roll.L
+    400098: Heel_roll.R
+    400100: Hips_ctrl
+    400102: //RootNode
+    400104: iguana
+    400106: iguana_arma
+    400108: iguana_eq
+    400110: jaw
+    400112: jaw_end
+    400114: Knee_IK.L
+    400116: Knee_IK.L_end
+    400118: Knee_IK.R
+    400120: Knee_IK.R_end
+    400122: Neck
+    400124: Spear
+    400126: spine_1
+    400128: spine_2
+    400130: spine_3
+    400132: Staff
+    400134: tail_base
+    400136: tail_end
+    400138: tail_end_end
+    400140: tail_mid1
+    400142: tail_mid2
+    400144: Thumb_1.L
+    400146: Thumb_1.R
+    400148: Thumb_2.L
+    400150: Thumb_2.L_end
+    400152: Thumb_2.R
+    400154: Thumb_2.R_end
+    400156: Toe.L
+    400158: Toe.L_end
+    400160: Toe.R
+    400162: Toe.R_end
+    400164: Toe_roll.L
+    400166: Toe_roll.R
+    400168: Upper_arm.L
+    400170: Upper_arm.R
+    400172: Upper_leg.L
+    400174: Upper_leg.R
+    400176: Weapon_bone
+    400178: Weapon_bone_end
+    400180: Camera
+    400182: fin.001
+    400184: fin.001_MeshPart0
+    400186: fin.001_MeshPart1
+    400188: fin_bake
+    400190: fin_bake.001
+    400192: IGU
+    400194: IGU2
+    400196: IGU_bake
+    400198: IGU_cage
+    400200: IGU_greb_bake
+    400202: IGU_greb_cage
+    400204: IGU_hi
+    400206: IGU_hi_MeshPart0
+    400208: IGU_hi_MeshPart1
+    400210: IGU_hi_MeshPart10
+    400212: IGU_hi_MeshPart100
+    400214: IGU_hi_MeshPart101
+    400216: IGU_hi_MeshPart102
+    400218: IGU_hi_MeshPart103
+    400220: IGU_hi_MeshPart104
+    400222: IGU_hi_MeshPart105
+    400224: IGU_hi_MeshPart106
+    400226: IGU_hi_MeshPart107
+    400228: IGU_hi_MeshPart108
+    400230: IGU_hi_MeshPart109
+    400232: IGU_hi_MeshPart11
+    400234: IGU_hi_MeshPart110
+    400236: IGU_hi_MeshPart111
+    400238: IGU_hi_MeshPart112
+    400240: IGU_hi_MeshPart113
+    400242: IGU_hi_MeshPart114
+    400244: IGU_hi_MeshPart115
+    400246: IGU_hi_MeshPart116
+    400248: IGU_hi_MeshPart117
+    400250: IGU_hi_MeshPart118
+    400252: IGU_hi_MeshPart119
+    400254: IGU_hi_MeshPart12
+    400256: IGU_hi_MeshPart120
+    400258: IGU_hi_MeshPart121
+    400260: IGU_hi_MeshPart122
+    400262: IGU_hi_MeshPart123
+    400264: IGU_hi_MeshPart124
+    400266: IGU_hi_MeshPart125
+    400268: IGU_hi_MeshPart126
+    400270: IGU_hi_MeshPart127
+    400272: IGU_hi_MeshPart128
+    400274: IGU_hi_MeshPart129
+    400276: IGU_hi_MeshPart13
+    400278: IGU_hi_MeshPart130
+    400280: IGU_hi_MeshPart131
+    400282: IGU_hi_MeshPart132
+    400284: IGU_hi_MeshPart133
+    400286: IGU_hi_MeshPart134
+    400288: IGU_hi_MeshPart135
+    400290: IGU_hi_MeshPart136
+    400292: IGU_hi_MeshPart137
+    400294: IGU_hi_MeshPart14
+    400296: IGU_hi_MeshPart15
+    400298: IGU_hi_MeshPart16
+    400300: IGU_hi_MeshPart17
+    400302: IGU_hi_MeshPart18
+    400304: IGU_hi_MeshPart19
+    400306: IGU_hi_MeshPart2
+    400308: IGU_hi_MeshPart20
+    400310: IGU_hi_MeshPart21
+    400312: IGU_hi_MeshPart22
+    400314: IGU_hi_MeshPart23
+    400316: IGU_hi_MeshPart24
+    400318: IGU_hi_MeshPart25
+    400320: IGU_hi_MeshPart26
+    400322: IGU_hi_MeshPart27
+    400324: IGU_hi_MeshPart28
+    400326: IGU_hi_MeshPart29
+    400328: IGU_hi_MeshPart3
+    400330: IGU_hi_MeshPart30
+    400332: IGU_hi_MeshPart31
+    400334: IGU_hi_MeshPart32
+    400336: IGU_hi_MeshPart33
+    400338: IGU_hi_MeshPart34
+    400340: IGU_hi_MeshPart35
+    400342: IGU_hi_MeshPart36
+    400344: IGU_hi_MeshPart37
+    400346: IGU_hi_MeshPart38
+    400348: IGU_hi_MeshPart39
+    400350: IGU_hi_MeshPart4
+    400352: IGU_hi_MeshPart40
+    400354: IGU_hi_MeshPart41
+    400356: IGU_hi_MeshPart42
+    400358: IGU_hi_MeshPart43
+    400360: IGU_hi_MeshPart44
+    400362: IGU_hi_MeshPart45
+    400364: IGU_hi_MeshPart46
+    400366: IGU_hi_MeshPart47
+    400368: IGU_hi_MeshPart48
+    400370: IGU_hi_MeshPart49
+    400372: IGU_hi_MeshPart5
+    400374: IGU_hi_MeshPart50
+    400376: IGU_hi_MeshPart51
+    400378: IGU_hi_MeshPart52
+    400380: IGU_hi_MeshPart53
+    400382: IGU_hi_MeshPart54
+    400384: IGU_hi_MeshPart55
+    400386: IGU_hi_MeshPart56
+    400388: IGU_hi_MeshPart57
+    400390: IGU_hi_MeshPart58
+    400392: IGU_hi_MeshPart59
+    400394: IGU_hi_MeshPart6
+    400396: IGU_hi_MeshPart60
+    400398: IGU_hi_MeshPart61
+    400400: IGU_hi_MeshPart62
+    400402: IGU_hi_MeshPart63
+    400404: IGU_hi_MeshPart64
+    400406: IGU_hi_MeshPart65
+    400408: IGU_hi_MeshPart66
+    400410: IGU_hi_MeshPart67
+    400412: IGU_hi_MeshPart68
+    400414: IGU_hi_MeshPart69
+    400416: IGU_hi_MeshPart7
+    400418: IGU_hi_MeshPart70
+    400420: IGU_hi_MeshPart71
+    400422: IGU_hi_MeshPart72
+    400424: IGU_hi_MeshPart73
+    400426: IGU_hi_MeshPart74
+    400428: IGU_hi_MeshPart75
+    400430: IGU_hi_MeshPart76
+    400432: IGU_hi_MeshPart77
+    400434: IGU_hi_MeshPart78
+    400436: IGU_hi_MeshPart79
+    400438: IGU_hi_MeshPart8
+    400440: IGU_hi_MeshPart80
+    400442: IGU_hi_MeshPart81
+    400444: IGU_hi_MeshPart82
+    400446: IGU_hi_MeshPart83
+    400448: IGU_hi_MeshPart84
+    400450: IGU_hi_MeshPart85
+    400452: IGU_hi_MeshPart86
+    400454: IGU_hi_MeshPart87
+    400456: IGU_hi_MeshPart88
+    400458: IGU_hi_MeshPart89
+    400460: IGU_hi_MeshPart9
+    400462: IGU_hi_MeshPart90
+    400464: IGU_hi_MeshPart91
+    400466: IGU_hi_MeshPart92
+    400468: IGU_hi_MeshPart93
+    400470: IGU_hi_MeshPart94
+    400472: IGU_hi_MeshPart95
+    400474: IGU_hi_MeshPart96
+    400476: IGU_hi_MeshPart97
+    400478: IGU_hi_MeshPart98
+    400480: IGU_hi_MeshPart99
+    400482: iguana_eq.001
+    400484: iguana_eq_bake
+    400486: iguana_eq_bake.001
+    400488: Spear.001
+    400490: Spear.001_MeshPart0
+    400492: Spear.001_MeshPart1
+    400494: Spear_bake
+    400496: Spear_bake.001
+    400498: Staff.001
+    400500: Staff.001_MeshPart0
+    400502: Staff.001_MeshPart1
+    400504: Staff.001_MeshPart2
+    400506: Staff.001_MeshPart3
+    400508: Staff.001_MeshPart4
+    400510: Staff.001_MeshPart5
+    400512: Staff.001_MeshPart6
+    400514: Staff.001_MeshPart7
+    400516: Staff_bake
+    400518: Staff_bake.001
+    400520: Sun
+    2300000: fin.001_MeshPart0
+    2300002: fin.001_MeshPart1
+    2300004: IGU
+    2300006: IGU2
+    2300008: IGU_bake
+    2300010: IGU_cage
+    2300012: IGU_greb_bake
+    2300014: IGU_greb_cage
+    2300016: IGU_hi_MeshPart0
+    2300018: IGU_hi_MeshPart1
+    2300020: IGU_hi_MeshPart10
+    2300022: IGU_hi_MeshPart100
+    2300024: IGU_hi_MeshPart101
+    2300026: IGU_hi_MeshPart102
+    2300028: IGU_hi_MeshPart103
+    2300030: IGU_hi_MeshPart104
+    2300032: IGU_hi_MeshPart105
+    2300034: IGU_hi_MeshPart106
+    2300036: IGU_hi_MeshPart107
+    2300038: IGU_hi_MeshPart108
+    2300040: IGU_hi_MeshPart109
+    2300042: IGU_hi_MeshPart11
+    2300044: IGU_hi_MeshPart110
+    2300046: IGU_hi_MeshPart111
+    2300048: IGU_hi_MeshPart112
+    2300050: IGU_hi_MeshPart113
+    2300052: IGU_hi_MeshPart114
+    2300054: IGU_hi_MeshPart115
+    2300056: IGU_hi_MeshPart116
+    2300058: IGU_hi_MeshPart117
+    2300060: IGU_hi_MeshPart118
+    2300062: IGU_hi_MeshPart119
+    2300064: IGU_hi_MeshPart12
+    2300066: IGU_hi_MeshPart120
+    2300068: IGU_hi_MeshPart121
+    2300070: IGU_hi_MeshPart122
+    2300072: IGU_hi_MeshPart123
+    2300074: IGU_hi_MeshPart124
+    2300076: IGU_hi_MeshPart125
+    2300078: IGU_hi_MeshPart126
+    2300080: IGU_hi_MeshPart127
+    2300082: IGU_hi_MeshPart128
+    2300084: IGU_hi_MeshPart129
+    2300086: IGU_hi_MeshPart13
+    2300088: IGU_hi_MeshPart130
+    2300090: IGU_hi_MeshPart131
+    2300092: IGU_hi_MeshPart132
+    2300094: IGU_hi_MeshPart133
+    2300096: IGU_hi_MeshPart134
+    2300098: IGU_hi_MeshPart135
+    2300100: IGU_hi_MeshPart136
+    2300102: IGU_hi_MeshPart137
+    2300104: IGU_hi_MeshPart14
+    2300106: IGU_hi_MeshPart15
+    2300108: IGU_hi_MeshPart16
+    2300110: IGU_hi_MeshPart17
+    2300112: IGU_hi_MeshPart18
+    2300114: IGU_hi_MeshPart19
+    2300116: IGU_hi_MeshPart2
+    2300118: IGU_hi_MeshPart20
+    2300120: IGU_hi_MeshPart21
+    2300122: IGU_hi_MeshPart22
+    2300124: IGU_hi_MeshPart23
+    2300126: IGU_hi_MeshPart24
+    2300128: IGU_hi_MeshPart25
+    2300130: IGU_hi_MeshPart26
+    2300132: IGU_hi_MeshPart27
+    2300134: IGU_hi_MeshPart28
+    2300136: IGU_hi_MeshPart29
+    2300138: IGU_hi_MeshPart3
+    2300140: IGU_hi_MeshPart30
+    2300142: IGU_hi_MeshPart31
+    2300144: IGU_hi_MeshPart32
+    2300146: IGU_hi_MeshPart33
+    2300148: IGU_hi_MeshPart34
+    2300150: IGU_hi_MeshPart35
+    2300152: IGU_hi_MeshPart36
+    2300154: IGU_hi_MeshPart37
+    2300156: IGU_hi_MeshPart38
+    2300158: IGU_hi_MeshPart39
+    2300160: IGU_hi_MeshPart4
+    2300162: IGU_hi_MeshPart40
+    2300164: IGU_hi_MeshPart41
+    2300166: IGU_hi_MeshPart42
+    2300168: IGU_hi_MeshPart43
+    2300170: IGU_hi_MeshPart44
+    2300172: IGU_hi_MeshPart45
+    2300174: IGU_hi_MeshPart46
+    2300176: IGU_hi_MeshPart47
+    2300178: IGU_hi_MeshPart48
+    2300180: IGU_hi_MeshPart49
+    2300182: IGU_hi_MeshPart5
+    2300184: IGU_hi_MeshPart50
+    2300186: IGU_hi_MeshPart51
+    2300188: IGU_hi_MeshPart52
+    2300190: IGU_hi_MeshPart53
+    2300192: IGU_hi_MeshPart54
+    2300194: IGU_hi_MeshPart55
+    2300196: IGU_hi_MeshPart56
+    2300198: IGU_hi_MeshPart57
+    2300200: IGU_hi_MeshPart58
+    2300202: IGU_hi_MeshPart59
+    2300204: IGU_hi_MeshPart6
+    2300206: IGU_hi_MeshPart60
+    2300208: IGU_hi_MeshPart61
+    2300210: IGU_hi_MeshPart62
+    2300212: IGU_hi_MeshPart63
+    2300214: IGU_hi_MeshPart64
+    2300216: IGU_hi_MeshPart65
+    2300218: IGU_hi_MeshPart66
+    2300220: IGU_hi_MeshPart67
+    2300222: IGU_hi_MeshPart68
+    2300224: IGU_hi_MeshPart69
+    2300226: IGU_hi_MeshPart7
+    2300228: IGU_hi_MeshPart70
+    2300230: IGU_hi_MeshPart71
+    2300232: IGU_hi_MeshPart72
+    2300234: IGU_hi_MeshPart73
+    2300236: IGU_hi_MeshPart74
+    2300238: IGU_hi_MeshPart75
+    2300240: IGU_hi_MeshPart76
+    2300242: IGU_hi_MeshPart77
+    2300244: IGU_hi_MeshPart78
+    2300246: IGU_hi_MeshPart79
+    2300248: IGU_hi_MeshPart8
+    2300250: IGU_hi_MeshPart80
+    2300252: IGU_hi_MeshPart81
+    2300254: IGU_hi_MeshPart82
+    2300256: IGU_hi_MeshPart83
+    2300258: IGU_hi_MeshPart84
+    2300260: IGU_hi_MeshPart85
+    2300262: IGU_hi_MeshPart86
+    2300264: IGU_hi_MeshPart87
+    2300266: IGU_hi_MeshPart88
+    2300268: IGU_hi_MeshPart89
+    2300270: IGU_hi_MeshPart9
+    2300272: IGU_hi_MeshPart90
+    2300274: IGU_hi_MeshPart91
+    2300276: IGU_hi_MeshPart92
+    2300278: IGU_hi_MeshPart93
+    2300280: IGU_hi_MeshPart94
+    2300282: IGU_hi_MeshPart95
+    2300284: IGU_hi_MeshPart96
+    2300286: IGU_hi_MeshPart97
+    2300288: IGU_hi_MeshPart98
+    2300290: IGU_hi_MeshPart99
+    2300292: iguana_eq.001
+    2300294: iguana_eq_bake
+    2300296: iguana_eq_bake.001
+    2300298: Spear.001_MeshPart0
+    2300300: Spear.001_MeshPart1
+    2300302: Spear_bake
+    2300304: Spear_bake.001
+    2300306: Staff.001_MeshPart0
+    2300308: Staff.001_MeshPart1
+    2300310: Staff.001_MeshPart2
+    2300312: Staff.001_MeshPart3
+    2300314: Staff.001_MeshPart4
+    2300316: Staff.001_MeshPart5
+    2300318: Staff.001_MeshPart6
+    2300320: Staff.001_MeshPart7
+    2300322: Staff_bake
+    2300324: Staff_bake.001
+    3300000: fin.001_MeshPart0
+    3300002: fin.001_MeshPart1
+    3300004: IGU
+    3300006: IGU2
+    3300008: IGU_bake
+    3300010: IGU_cage
+    3300012: IGU_greb_bake
+    3300014: IGU_greb_cage
+    3300016: IGU_hi_MeshPart0
+    3300018: IGU_hi_MeshPart1
+    3300020: IGU_hi_MeshPart10
+    3300022: IGU_hi_MeshPart100
+    3300024: IGU_hi_MeshPart101
+    3300026: IGU_hi_MeshPart102
+    3300028: IGU_hi_MeshPart103
+    3300030: IGU_hi_MeshPart104
+    3300032: IGU_hi_MeshPart105
+    3300034: IGU_hi_MeshPart106
+    3300036: IGU_hi_MeshPart107
+    3300038: IGU_hi_MeshPart108
+    3300040: IGU_hi_MeshPart109
+    3300042: IGU_hi_MeshPart11
+    3300044: IGU_hi_MeshPart110
+    3300046: IGU_hi_MeshPart111
+    3300048: IGU_hi_MeshPart112
+    3300050: IGU_hi_MeshPart113
+    3300052: IGU_hi_MeshPart114
+    3300054: IGU_hi_MeshPart115
+    3300056: IGU_hi_MeshPart116
+    3300058: IGU_hi_MeshPart117
+    3300060: IGU_hi_MeshPart118
+    3300062: IGU_hi_MeshPart119
+    3300064: IGU_hi_MeshPart12
+    3300066: IGU_hi_MeshPart120
+    3300068: IGU_hi_MeshPart121
+    3300070: IGU_hi_MeshPart122
+    3300072: IGU_hi_MeshPart123
+    3300074: IGU_hi_MeshPart124
+    3300076: IGU_hi_MeshPart125
+    3300078: IGU_hi_MeshPart126
+    3300080: IGU_hi_MeshPart127
+    3300082: IGU_hi_MeshPart128
+    3300084: IGU_hi_MeshPart129
+    3300086: IGU_hi_MeshPart13
+    3300088: IGU_hi_MeshPart130
+    3300090: IGU_hi_MeshPart131
+    3300092: IGU_hi_MeshPart132
+    3300094: IGU_hi_MeshPart133
+    3300096: IGU_hi_MeshPart134
+    3300098: IGU_hi_MeshPart135
+    3300100: IGU_hi_MeshPart136
+    3300102: IGU_hi_MeshPart137
+    3300104: IGU_hi_MeshPart14
+    3300106: IGU_hi_MeshPart15
+    3300108: IGU_hi_MeshPart16
+    3300110: IGU_hi_MeshPart17
+    3300112: IGU_hi_MeshPart18
+    3300114: IGU_hi_MeshPart19
+    3300116: IGU_hi_MeshPart2
+    3300118: IGU_hi_MeshPart20
+    3300120: IGU_hi_MeshPart21
+    3300122: IGU_hi_MeshPart22
+    3300124: IGU_hi_MeshPart23
+    3300126: IGU_hi_MeshPart24
+    3300128: IGU_hi_MeshPart25
+    3300130: IGU_hi_MeshPart26
+    3300132: IGU_hi_MeshPart27
+    3300134: IGU_hi_MeshPart28
+    3300136: IGU_hi_MeshPart29
+    3300138: IGU_hi_MeshPart3
+    3300140: IGU_hi_MeshPart30
+    3300142: IGU_hi_MeshPart31
+    3300144: IGU_hi_MeshPart32
+    3300146: IGU_hi_MeshPart33
+    3300148: IGU_hi_MeshPart34
+    3300150: IGU_hi_MeshPart35
+    3300152: IGU_hi_MeshPart36
+    3300154: IGU_hi_MeshPart37
+    3300156: IGU_hi_MeshPart38
+    3300158: IGU_hi_MeshPart39
+    3300160: IGU_hi_MeshPart4
+    3300162: IGU_hi_MeshPart40
+    3300164: IGU_hi_MeshPart41
+    3300166: IGU_hi_MeshPart42
+    3300168: IGU_hi_MeshPart43
+    3300170: IGU_hi_MeshPart44
+    3300172: IGU_hi_MeshPart45
+    3300174: IGU_hi_MeshPart46
+    3300176: IGU_hi_MeshPart47
+    3300178: IGU_hi_MeshPart48
+    3300180: IGU_hi_MeshPart49
+    3300182: IGU_hi_MeshPart5
+    3300184: IGU_hi_MeshPart50
+    3300186: IGU_hi_MeshPart51
+    3300188: IGU_hi_MeshPart52
+    3300190: IGU_hi_MeshPart53
+    3300192: IGU_hi_MeshPart54
+    3300194: IGU_hi_MeshPart55
+    3300196: IGU_hi_MeshPart56
+    3300198: IGU_hi_MeshPart57
+    3300200: IGU_hi_MeshPart58
+    3300202: IGU_hi_MeshPart59
+    3300204: IGU_hi_MeshPart6
+    3300206: IGU_hi_MeshPart60
+    3300208: IGU_hi_MeshPart61
+    3300210: IGU_hi_MeshPart62
+    3300212: IGU_hi_MeshPart63
+    3300214: IGU_hi_MeshPart64
+    3300216: IGU_hi_MeshPart65
+    3300218: IGU_hi_MeshPart66
+    3300220: IGU_hi_MeshPart67
+    3300222: IGU_hi_MeshPart68
+    3300224: IGU_hi_MeshPart69
+    3300226: IGU_hi_MeshPart7
+    3300228: IGU_hi_MeshPart70
+    3300230: IGU_hi_MeshPart71
+    3300232: IGU_hi_MeshPart72
+    3300234: IGU_hi_MeshPart73
+    3300236: IGU_hi_MeshPart74
+    3300238: IGU_hi_MeshPart75
+    3300240: IGU_hi_MeshPart76
+    3300242: IGU_hi_MeshPart77
+    3300244: IGU_hi_MeshPart78
+    3300246: IGU_hi_MeshPart79
+    3300248: IGU_hi_MeshPart8
+    3300250: IGU_hi_MeshPart80
+    3300252: IGU_hi_MeshPart81
+    3300254: IGU_hi_MeshPart82
+    3300256: IGU_hi_MeshPart83
+    3300258: IGU_hi_MeshPart84
+    3300260: IGU_hi_MeshPart85
+    3300262: IGU_hi_MeshPart86
+    3300264: IGU_hi_MeshPart87
+    3300266: IGU_hi_MeshPart88
+    3300268: IGU_hi_MeshPart89
+    3300270: IGU_hi_MeshPart9
+    3300272: IGU_hi_MeshPart90
+    3300274: IGU_hi_MeshPart91
+    3300276: IGU_hi_MeshPart92
+    3300278: IGU_hi_MeshPart93
+    3300280: IGU_hi_MeshPart94
+    3300282: IGU_hi_MeshPart95
+    3300284: IGU_hi_MeshPart96
+    3300286: IGU_hi_MeshPart97
+    3300288: IGU_hi_MeshPart98
+    3300290: IGU_hi_MeshPart99
+    3300292: iguana_eq.001
+    3300294: iguana_eq_bake
+    3300296: iguana_eq_bake.001
+    3300298: Spear.001_MeshPart0
+    3300300: Spear.001_MeshPart1
+    3300302: Spear_bake
+    3300304: Spear_bake.001
+    3300306: Staff.001_MeshPart0
+    3300308: Staff.001_MeshPart1
+    3300310: Staff.001_MeshPart2
+    3300312: Staff.001_MeshPart3
+    3300314: Staff.001_MeshPart4
+    3300316: Staff.001_MeshPart5
+    3300318: Staff.001_MeshPart6
+    3300320: Staff.001_MeshPart7
+    3300322: Staff_bake
+    3300324: Staff_bake.001
+    4300000: fin
+    4300002: Staff
+    4300004: Spear
+    4300006: iguana_eq
+    4300008: iguana
+    4300010: Spear_bake.001
+    4300012: Staff_bake.001
+    4300014: iguana_eq_bake.001
+    4300016: iguana_eq_bake
+    4300018: Staff_bake
+    4300020: Spear_bake
+    4300022: iguana_eq.001
+    4300024: Spear.001_MeshPart0
+    4300026: Spear.001_MeshPart1
+    4300028: Staff.001_MeshPart0
+    4300030: Staff.001_MeshPart1
+    4300032: Staff.001_MeshPart2
+    4300034: Staff.001_MeshPart3
+    4300036: Staff.001_MeshPart4
+    4300038: Staff.001_MeshPart5
+    4300040: Staff.001_MeshPart6
+    4300042: Staff.001_MeshPart7
+    4300044: fin.001_MeshPart0
+    4300046: fin.001_MeshPart1
+    4300048: IGU_greb_bake
+    4300050: IGU_greb_cage
+    4300052: IGU_cage
+    4300054: IGU_bake
+    4300056: IGU_hi_MeshPart0
+    4300058: IGU_hi_MeshPart1
+    4300060: IGU_hi_MeshPart2
+    4300062: IGU_hi_MeshPart3
+    4300064: IGU_hi_MeshPart4
+    4300066: IGU_hi_MeshPart5
+    4300068: IGU_hi_MeshPart6
+    4300070: IGU_hi_MeshPart7
+    4300072: IGU_hi_MeshPart8
+    4300074: IGU_hi_MeshPart9
+    4300076: IGU_hi_MeshPart10
+    4300078: IGU_hi_MeshPart11
+    4300080: IGU_hi_MeshPart12
+    4300082: IGU_hi_MeshPart13
+    4300084: IGU_hi_MeshPart14
+    4300086: IGU_hi_MeshPart15
+    4300088: IGU_hi_MeshPart16
+    4300090: IGU_hi_MeshPart17
+    4300092: IGU_hi_MeshPart18
+    4300094: IGU_hi_MeshPart19
+    4300096: IGU_hi_MeshPart20
+    4300098: IGU_hi_MeshPart21
+    4300100: IGU_hi_MeshPart22
+    4300102: IGU_hi_MeshPart23
+    4300104: IGU_hi_MeshPart24
+    4300106: IGU_hi_MeshPart25
+    4300108: IGU_hi_MeshPart26
+    4300110: IGU_hi_MeshPart27
+    4300112: IGU_hi_MeshPart28
+    4300114: IGU_hi_MeshPart29
+    4300116: IGU_hi_MeshPart30
+    4300118: IGU_hi_MeshPart31
+    4300120: IGU_hi_MeshPart32
+    4300122: IGU_hi_MeshPart33
+    4300124: IGU_hi_MeshPart34
+    4300126: IGU_hi_MeshPart35
+    4300128: IGU_hi_MeshPart36
+    4300130: IGU_hi_MeshPart37
+    4300132: IGU_hi_MeshPart38
+    4300134: IGU_hi_MeshPart39
+    4300136: IGU_hi_MeshPart40
+    4300138: IGU_hi_MeshPart41
+    4300140: IGU_hi_MeshPart42
+    4300142: IGU_hi_MeshPart43
+    4300144: IGU_hi_MeshPart44
+    4300146: IGU_hi_MeshPart45
+    4300148: IGU_hi_MeshPart46
+    4300150: IGU_hi_MeshPart47
+    4300152: IGU_hi_MeshPart48
+    4300154: IGU_hi_MeshPart49
+    4300156: IGU_hi_MeshPart50
+    4300158: IGU_hi_MeshPart51
+    4300160: IGU_hi_MeshPart52
+    4300162: IGU_hi_MeshPart53
+    4300164: IGU_hi_MeshPart54
+    4300166: IGU_hi_MeshPart55
+    4300168: IGU_hi_MeshPart56
+    4300170: IGU_hi_MeshPart57
+    4300172: IGU_hi_MeshPart58
+    4300174: IGU_hi_MeshPart59
+    4300176: IGU_hi_MeshPart60
+    4300178: IGU_hi_MeshPart61
+    4300180: IGU_hi_MeshPart62
+    4300182: IGU_hi_MeshPart63
+    4300184: IGU_hi_MeshPart64
+    4300186: IGU_hi_MeshPart65
+    4300188: IGU_hi_MeshPart66
+    4300190: IGU_hi_MeshPart67
+    4300192: IGU_hi_MeshPart68
+    4300194: IGU_hi_MeshPart69
+    4300196: IGU_hi_MeshPart70
+    4300198: IGU_hi_MeshPart71
+    4300200: IGU_hi_MeshPart72
+    4300202: IGU_hi_MeshPart73
+    4300204: IGU_hi_MeshPart74
+    4300206: IGU_hi_MeshPart75
+    4300208: IGU_hi_MeshPart76
+    4300210: IGU_hi_MeshPart77
+    4300212: IGU_hi_MeshPart78
+    4300214: IGU_hi_MeshPart79
+    4300216: IGU_hi_MeshPart80
+    4300218: IGU_hi_MeshPart81
+    4300220: IGU_hi_MeshPart82
+    4300222: IGU_hi_MeshPart83
+    4300224: IGU_hi_MeshPart84
+    4300226: IGU_hi_MeshPart85
+    4300228: IGU_hi_MeshPart86
+    4300230: IGU_hi_MeshPart87
+    4300232: IGU_hi_MeshPart88
+    4300234: IGU_hi_MeshPart89
+    4300236: IGU_hi_MeshPart90
+    4300238: IGU_hi_MeshPart91
+    4300240: IGU_hi_MeshPart92
+    4300242: IGU_hi_MeshPart93
+    4300244: IGU_hi_MeshPart94
+    4300246: IGU_hi_MeshPart95
+    4300248: IGU_hi_MeshPart96
+    4300250: IGU_hi_MeshPart97
+    4300252: IGU_hi_MeshPart98
+    4300254: IGU_hi_MeshPart99
+    4300256: IGU_hi_MeshPart100
+    4300258: IGU_hi_MeshPart101
+    4300260: IGU_hi_MeshPart102
+    4300262: IGU_hi_MeshPart103
+    4300264: IGU_hi_MeshPart104
+    4300266: IGU_hi_MeshPart105
+    4300268: IGU_hi_MeshPart106
+    4300270: IGU_hi_MeshPart107
+    4300272: IGU_hi_MeshPart108
+    4300274: IGU_hi_MeshPart109
+    4300276: IGU_hi_MeshPart110
+    4300278: IGU_hi_MeshPart111
+    4300280: IGU_hi_MeshPart112
+    4300282: IGU_hi_MeshPart113
+    4300284: IGU_hi_MeshPart114
+    4300286: IGU_hi_MeshPart115
+    4300288: IGU_hi_MeshPart116
+    4300290: IGU_hi_MeshPart117
+    4300292: IGU_hi_MeshPart118
+    4300294: IGU_hi_MeshPart119
+    4300296: IGU_hi_MeshPart120
+    4300298: IGU_hi_MeshPart121
+    4300300: IGU_hi_MeshPart122
+    4300302: IGU_hi_MeshPart123
+    4300304: IGU_hi_MeshPart124
+    4300306: IGU_hi_MeshPart125
+    4300308: IGU_hi_MeshPart126
+    4300310: IGU_hi_MeshPart127
+    4300312: IGU_hi_MeshPart128
+    4300314: IGU_hi_MeshPart129
+    4300316: IGU_hi_MeshPart130
+    4300318: IGU_hi_MeshPart131
+    4300320: IGU_hi_MeshPart132
+    4300322: IGU_hi_MeshPart133
+    4300324: IGU_hi_MeshPart134
+    4300326: IGU_hi_MeshPart135
+    4300328: IGU_hi_MeshPart136
+    4300330: IGU_hi_MeshPart137
+    4300332: IGU2
+    4300334: IGU
+    4300336: fin_bake.001
+    4300338: fin_bake
+    7400000: iguana_arma|Murloc_wm_armaAction
+    7400002: walk
+    7400004: run
+    7400006: idle
+    7400008: idle_battle
+    7400010: jump
+    7400012: attack1
+    7400014: attack2
+    7400016: power_attack
+    7400018: defence_start
+    7400020: defence_end
+    7400022: cast1
+    7400024: cast2
+    7400026: hit1
+    7400028: hit2
+    7400030: die1
+    7400032: die2
+    9500000: //RootNode
+    13700000: fin
+    13700002: iguana
+    13700004: iguana_eq
+    13700006: Spear
+    13700008: Staff
+    13700010: fin_bake
+    13700012: fin_bake.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: iguana_arma|Murloc_wm_armaAction
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 0
+      lastFrame: 473
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 2
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 61
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_battle
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 130
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 170
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 230
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: power_attack
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 250
+      lastFrame: 275
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_start
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 285
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_end
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 295
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: cast1
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 320
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: cast2
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 350
+      lastFrame: 383
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit1
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 390
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit2
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 405
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die1
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 415
+      lastFrame: 443
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die2
+      takeName: iguana_arma|Murloc_wm_armaAction
+      firstFrame: 448
+      lastFrame: 473
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fin
+        weight: 1
+      - path: iguana
+        weight: 1
+      - path: iguana_arma
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: iguana_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: iguana_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: iguana_arma/Hand_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: iguana_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/spine_2/tail_base/tail_mid1/tail_mid2/tail_end/tail_end_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: iguana_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: iguana_eq
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 0
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
