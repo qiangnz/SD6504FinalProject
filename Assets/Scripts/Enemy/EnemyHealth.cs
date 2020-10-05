@@ -39,6 +39,9 @@ public class EnemyHealth : MonoBehaviour
             // ... move the enemy down by the sinkSpeed per second.
             transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
         }
+        if (Input.GetKeyDown("o")) {
+            Death();
+        }
     }
 
     public void TakeDamage (int amount, Vector3 hitPoint)
