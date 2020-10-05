@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EmemyAttack : MonoBehaviour
 {
-   public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
+    public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
     public int attackDamage = 10;               // The amount of health taken away per attack.
 
 
@@ -60,7 +60,7 @@ public class EmemyAttack : MonoBehaviour
         if(playerHealth.currentHealth <= 0)
         {
             // ... tell the animator the player is dead.
-            anim.SetTrigger ("PlayDead");
+            anim.SetTrigger ("PlayerDead");
         }
     }
 
@@ -74,6 +74,14 @@ public class EmemyAttack : MonoBehaviour
         {
             // ... damage the player.
             playerHealth.TakeDamage (attackDamage);
+            anim.SetBool ("Attack",true);
+        }
+        else
+        {
+            anim.SetBool ("Attack",false);
         }
     }
+
 }
+
+
