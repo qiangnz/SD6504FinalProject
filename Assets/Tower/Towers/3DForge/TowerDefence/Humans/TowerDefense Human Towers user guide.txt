@@ -1,0 +1,43 @@
+Thanks for purchasing this pakage.
+
+The scene that was used for the online webplayer DEMO is included in this package.
+
+
+There are two custom scripts that are being used to achieve the desired effects on the pre-fabs.
+MaterialAlphaPulse & ObjectConstantRotation
+
+
+MaterialAlphaPulse is used to generate the pulsating glyphs.
+Particles/Additive shaders needs to be used with this script.
+What the script also does, it on runtime creates another instance of the material so that when the user edited the colour,
+it does not change the base material.
+
+
+
+Using MaterialAlphaPulse:
+Drag onto item.
+size - add the amount of children the item would have that this might be applied to.
+Example is the animated obilisk that has 4 children pulsating surfaces underneath it
+If only itself then type 1
+Drag each of the children or iteself onto the Element lines
+Colour_pick your desired hue and saturation
+Adjust Change_speed and Max_alpha's to adjust the colour result
+
+NB!!!, in the editor the colour keeps displaying as white, this changes to the picked colour at run-time
+
+
+
+Using ObjectConstantRotation
+Drag onto item.
+size - add the amount of children the item would have that this might be applied to.
+Example is the animated obilisk that has 4 children pulsating surfaces underneath it
+If only itself then type 1
+Drag each of the children or iteself onto the Element lines
+Adjust the axis of rotation and the speed
+positive numbers = clockwise rotation
+negative numbers = an anti-clockwise
+
+Send some screenshots to info@3dforge.co.za of your work and I will showcase them on the website
+Let me know what other tower types you might want to see in future?
+
+Enjoy
