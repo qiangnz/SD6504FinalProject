@@ -5,7 +5,7 @@ using UnityEngine;
 public class BattleManager : MonoBehaviour
 {
     
-    [SerializeField] private Wave wave;
+    [SerializeField] private Wave[] waves;
     private enum State {
         Idle,
         Active
@@ -13,7 +13,7 @@ public class BattleManager : MonoBehaviour
     private State state;
     private void startBattle() {
         state = State.Active;
-        wave.SpawnEnemies();
+        // wave.SpawnEnemies();
     }
 
     private void Awake()
@@ -26,23 +26,55 @@ public class BattleManager : MonoBehaviour
     {
         startBattle();
     }
-
+    private int index = 0;
+    private Wave preWave = null;
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("current wave:" + index);
+        if (index < 6) {
+            switch (state) {
+                case State.Active:
+                    Wave wave = waves[index];
+                    if (!wave.IsInit) {
+                        wave.SpawnEnemies();
+                        preWave = wave;
+                        Debug.Log("pre wave:" + index + preWave.isWaveOver() );
+                    } else if (preWave != null && preWave.isWaveOver()) {
+                        index++;
+                    }
+                    break;
+            }
+        }
     }
 
 
     // wave controller
     [System.Serializable]
     private class Wave{
-        int count = 0;
+        bool isInit = false;
         [SerializeField] private GameObject[] enemys;
 
         public void SpawnEnemies() {
+            isInit = true;
             foreach (GameObject enemy in enemys) {
                 enemy.GetComponent<EnemyManager>().Spawn();
+            }
+        }
+
+        public bool IsInit{ get { return isInit; } }
+
+        public bool isWaveOver() {
+            if (isInit) {
+                foreach (GameObject enemy in enemys) {
+                    Debug.Log("enemy" + enemy.name + "isAlive:" + enemy.GetComponent<EnemyManager>().isAlive());
+                    if (enemy != null && enemy.GetComponent<EnemyManager>().isAlive()) {
+                        return false;
+                    }
+                }
+                return true;
+            } else {
+                return false;
             }
         }
 

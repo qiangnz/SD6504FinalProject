@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d873971cc86dc4d04a862d053286bba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyManager: {fileID: 8759550054043989966}
+  enemyManager: {fileID: 0}
 --- !u!1 &7131412276794197147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 1635806680591003332}
   - component: {fileID: 3938173174301049549}
   - component: {fileID: 8338409051720758528}
-  - component: {fileID: 8759550054043989966}
+  - component: {fileID: 5358873461001927563}
   m_Layer: 9
   m_Name: Frogman_blue
   m_TagString: Enemy
@@ -2876,7 +2876,7 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 0
   m_Center: {x: -0.12, y: 1.03, z: 0.36}
---- !u!114 &8759550054043989966
+--- !u!114 &5358873461001927563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

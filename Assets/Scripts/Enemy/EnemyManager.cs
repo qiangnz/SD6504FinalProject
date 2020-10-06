@@ -41,7 +41,11 @@ public abstract class EnemyManager : MonoBehaviour
     public string enemyType;
     public string enemyColor;
 
+    private bool isInit = false;
 
+    public bool isAlive() {
+        return  currentHealth > 0;
+    }
     private void Awake()
     {   
         init();
@@ -63,13 +67,14 @@ public abstract class EnemyManager : MonoBehaviour
         audio = GetComponent<AudioSource>();
         directionManager.OnReDirection += OnRedirection;
         healthBar.SetMaxHealth(maxHealth);
-        currentHealth = maxHealth;
     }
 
     private void init() {
+        currentHealth = maxHealth;
         startPoint = GameObject.FindWithTag("StartPoint").transform;
         player = GameObject.FindGameObjectWithTag ("Player");
         playerHealth = player.GetComponent <HeroHealth> ();
+        isInit = true;
     }
     public void Spawn() {
         init();
@@ -83,6 +88,7 @@ public abstract class EnemyManager : MonoBehaviour
         int z = UnityEngine.Random.Range(-60, 60);
         Vector3 newPosition = new Vector3(startPos.x - x, startPos.y, startPos.z + z);
         Instantiate (currentEnemy, newPosition, startPoint.rotation);
+        
         
     }
     
@@ -154,6 +160,12 @@ public abstract class EnemyManager : MonoBehaviour
         }
 
 
+    }
+
+    private void OnDestroy()
+    {
+        isInit = false;
+        currentHealth = 0;
     }
     public abstract void Run();
     public abstract void Walk();
