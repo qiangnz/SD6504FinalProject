@@ -60,7 +60,7 @@ public class HeroController : MonoBehaviour
     {
         if(controller.isGrounded)
         {
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetKeyDown("space"))
             {
                 if(anim.GetBool("IsWalking")==true)
                 {
