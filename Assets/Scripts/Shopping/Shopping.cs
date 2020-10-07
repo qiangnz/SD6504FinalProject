@@ -6,14 +6,25 @@ using UnityEngine.UI;
 
 public class Shopping : MonoBehaviour
 {
+
     public GameObject shopPanel;
 
-    void Update()
+    // public void shopTower()
+    // {
+
+    //             shopPanel.SetActive(true);
+    //             Debug.Log("Click shop");
+
+    // }
+
+    void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            shopPanel.SetActive(true);
-        }
+        shopPanel.SetActive(true);
+        Debug.Log("Click shop");
     }
+
+
+
+
 
 }

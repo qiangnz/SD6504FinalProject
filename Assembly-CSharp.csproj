@@ -92,6 +92,8 @@
      <Compile Include="Assets\Tower\Towers\3DForge\Scripts\MaterialAlphaPulse.cs" />
      <Compile Include="Assets\Fire\MagicArsenal\Demo\Scripts\MagicButtonScript.cs" />
      <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+     <Compile Include="Assets\SkyBox\AllSkyFree\AllSkyFree_Menu.cs" />
+     <Compile Include="Assets\Scripts\Shopping\Shopping.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
      <Compile Include="Assets\Fire\MagicArsenal\Demo\Scripts\MagicFireProjectile.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
@@ -101,12 +103,12 @@
      <Compile Include="Assets\Fire\MagicArsenal\Demo\Scripts\MagicLoopScript.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
      <Compile Include="Assets\Scripts\Enemy\EmemyAttack.cs" />
-     <Compile Include="Assets\Scripts\Shopping\Shopping.cs" />
      <None Include="Assets\Tower\Towers\3DForge\Documents\TowerDefense Human Towers user guide.txt" />
      <None Include="Assets\Fire\MagicArsenal\Readme.txt" />
      <None Include="Assets\Enemy\FantasyPack1\Goblins_pack\readme.txt" />
      <None Include="Assets\Tower\Towers\3DForge\TowerDefence\Humans\TowerDefense Human Towers user guide.txt" />
      <None Include="Assets\Scene Elements\Baker House\Readme.txt" />
+     <None Include="Assets\SkyBox\AllSkyFree\AllSkyFree_Readme.txt" />
      <None Include="Assets\Enemy\FantasyPack1\Monster-Rabbit\readme.txt" />
      <None Include="Assets\CodeMonkey\README.txt" />
      <None Include="Assets\Enemy\FantasyPack1\Ent\readme.txt" />
